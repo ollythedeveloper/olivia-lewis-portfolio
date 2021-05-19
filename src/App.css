@@ -1,38 +1,91 @@
+* {
+    box-sizing: border-box; 
+}
+
+/*format of the page body*/
 .App {
-  text-align: center;
+    background-color: #000;
+    background-image: url(./salt-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 10px solid #000;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*format/style of all h2 text*/
+h2{
+    font-family: 'American Typewriter';
+    font-size: 40px;
+    color: #E171AC;
+    text-align: center;
+    margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*format/style of h3, h4, p, li text*/
+h3, h4, p, li {
+    font-family:'Times New Roman';
+    color: #fff;
+    text-align: center;
+    align-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*font size of h3 text in main body of page*/
+h3{
+    font-size: 30px;
+}
+  
+/* h4 font size*/
+h4{
+    font-size: 23px;
+}
+  
+/* p and li font size*/
+p,li {
+    font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/*format of ordered and unordered lists*/
+div{
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ol, ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+.item img {
+    width: 100%;
+    border: 5px solid #000;
+    margin-top: 20px;
+}
+
+.item-double img {
+    width: 100%;
+    border: 5px solid #000;
+}
+
+/*Groups and Items (Desktop)*/
+@media all and (min-width: 800px){
+    .group {
+      flex-direction: row;
+    }
 }

@@ -1,0 +1,54 @@
+.App__nav {
+    background-color: #00B3E6;
+    background-image: url(../cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    border:  2px solid #E171AC;
+}
+
+.App__nav h1 {
+    font-family: 'American Typewriter';
+    color: #000;
+    text-align: center;
+    font-size: 70px;
+}
+
+.Nav__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Nav__options {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.Nav__options a {
+    font-family: fantasy;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px 0 0;
+    font-size: 20px;
+}
+
+.Nav__options a:hover {
+    color: #00B3E6;
+}
+
+@media all and (min-width: 800px){
+    .App__nav{
+      display: flex;
+      justify-content: space-between;
+      /* padding: 20px; */
+    }
+  
+    .Nav__head{
+      margin-top: 60px;
+    }
+}
