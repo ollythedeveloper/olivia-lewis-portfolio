@@ -26,7 +26,7 @@
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center;
-    padding-bottom: 0;
+    padding-bottom: 10px;
 }
 
 .Nav__options a {
@@ -44,11 +44,19 @@
 @media all and (min-width: 800px){
     .App__nav{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       /* padding: 20px; */
     }
   
     .Nav__head{
       margin-top: 60px;
+    }
+
+    .Nav__options {
+        padding-top: 100px;
+    }
+
+    .Nav__options a {
+        font-size: 25px;
     }
 }

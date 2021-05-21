@@ -5,8 +5,14 @@ import './Footer.css';
 export default function Footer() {
     return (
         <div className="App__footer">
-            <p><img src={logo} alt="OllyLogo" className="logo" /></p>
+            <div className="ft_group">
+                <div className="ft_item">
+            <img src={logo} alt="OllyLogo" className="logo" />
+            </div>
+            <div className="ft_item">
             <p>Copyright © 2021</p>
+            </div>
+            </div>
         </div>
     )
 }

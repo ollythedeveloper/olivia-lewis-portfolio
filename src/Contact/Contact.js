@@ -4,7 +4,7 @@ import './Contact.css';
 export default function Contact() {
     return (
         <div className="App__contact">
-            <h2>Contact</h2>
+            <h2 className="cont-head">Contact</h2>
             <div class="group">
               <div class="item-double">
               <form class="form-txt left-side" action="https://formspree.io/f/xbjpzbzz" method="post">

@@ -1,6 +1,8 @@
 .logo {
-    width: 220px;
+    margin-top: 10px;
+    /* width: 180px; */
     border: 2px solid #000;
+    /* height: 70px; */
 }
 
 .App__footer {
@@ -10,6 +12,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 150px;
+    height: 100px;
 }
 
+.ft_group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ft_item{
+    flex: 1;
+    margin-top: 2px;
+}
+
+.ft_item img{
+    width: 30%;
+}

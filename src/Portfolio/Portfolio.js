@@ -8,8 +8,7 @@ import './Portfolio.css';
 export default function Portfolio() {
     return (
         <div className="App__portfolio">
-            <h2>My Portfolio</h2>
-
+            <h2 className="port-head">My Portfolio</h2>
             <div className="group">
                 <div className="item">
                     <h3>Sense8 Quiz App</h3>
