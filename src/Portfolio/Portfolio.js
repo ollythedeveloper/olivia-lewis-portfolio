@@ -19,7 +19,7 @@ export default function Portfolio() {
                     <p><a href="https://ollythedeveloper.github.io/sense8-quiz/" rel="noreferrer" target="_blank">Live App</a></p>
                 </div>
 
-                <div class="item">
+                <div className="item">
                     <h3>Pose Reference Generator App</h3>
                     <img src={prg} alt="PRG Landing Page" />
                     <p>This App helps users see reference images and 'how-to-draw' videos for specific poses.</p> 
@@ -30,7 +30,7 @@ export default function Portfolio() {
             </div>
 
             <div className="group">
-                <div class="item">
+                <div className="item">
                     <h3>Interview Me App</h3>
                     <img src={intMe} alt="IntMe Landing Page" />
                     <p>This App helps to prepare Job Seekers(Users) for interviews by prompting them with interview questions. 
@@ -41,7 +41,7 @@ export default function Portfolio() {
                     <p><a href="https://interview-me.vercel.app/" rel="noreferrer" target="_blank">Live App</a></p>
                 </div>
 
-                <div class="item">
+                <div className="item">
                     <h3>Fashion Fits</h3>
                     <img src={fashFit} alt="Fashion Fits Landing Page" />
                     <p>This App allows users to find their clothing size in several countries and measurement types.</p> 

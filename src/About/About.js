@@ -27,7 +27,7 @@ export default function About() {
                         <li>I love character design and creating comics in my free time. Check out my <a href="https://www.instagram.com/ollybaby.prod/">Instagram</a>!</li>
                     </ul>
                 </div>
-                <div class="item">
+                <div className="item">
                     <img src={myart} alt="Some of my drawings" />
                 </div>
             </div>
