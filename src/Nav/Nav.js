@@ -5,7 +5,7 @@ import './Nav.css';
 export default function Nav() {
     return (
         <div className="App__nav">
-            <div class="Nav_head">
+            <div className="Nav_head">
                 <h1>Olivia Lewis</h1>
             </div>
             <div className="Nav__options">
