@@ -2,7 +2,7 @@ import React from 'react';
 import prg from './prg-trimmed.png';
 import sense8 from './sense8-quiz-landing.png';
 import intMe from './iM-landing-page1.png';
-import appImgFill from './appimg-fill.jpg';
+import fashFit from './FF_Landing.png';
 import './Portfolio.css';
 
 export default function Portfolio() {
@@ -43,8 +43,8 @@ export default function Portfolio() {
 
                 <div class="item">
                     <h3>Fashion Fits</h3>
-                    <img src={appImgFill} alt="filler" />
-                    <p>Description of Fashion Fits App.</p> 
+                    <img src={fashFit} alt="Fashion Fits Landing Page" />
+                    <p>This App allows users to find their clothing size in several countries and measurement types.</p> 
                     <p>I used HTML, CSS, Javascript, jQuery, React, Node, Express, and PostgreSQL.</p>
                     <p><a href="https://github.com/ollythedeveloper/fashion-fits" rel="noreferrer" target="_blank">GitHub Repo</a></p>
                     <p><a href="https://fashion-fits.vercel.app/" rel="noreferrer" target="_blank">Live App</a></p>
