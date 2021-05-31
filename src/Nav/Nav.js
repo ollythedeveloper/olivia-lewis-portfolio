@@ -4,16 +4,16 @@ import './Nav.css';
 
 export default function Nav() {
     return (
-        <div className="App__nav">
-            <div className="Nav_head">
+        <nav className="App__nav">
+            <header className="Nav_head">
                 <h1>Olivia Lewis</h1>
-            </div>
+            </header>
             <div className="Nav__options">
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/portfolio'>Portfolio</Link>
                 <Link to='/contact'>Contact</Link>
             </div>
-        </div>
+        </nav>
     )
 }
