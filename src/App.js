@@ -13,20 +13,14 @@ class App extends Component {
 
     return (
       <div className="App">
-        {/* <nav className="App__nav"> */}
-          <Nav />
-        {/* </nav> */}
-        {/* <main className="App__main"> */}
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/portfolio' component={Portfolio} />
-            <Route path='/contact' component={Contact} />
-          </Switch>
-        {/* </main> */}
-        {/* <footer className="App__footer"> */}
-          <Footer />
-        {/* </footer> */}
+        <Nav />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+        <Footer />
       </div>
     );
   }
